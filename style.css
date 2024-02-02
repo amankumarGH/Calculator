@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("blue-storm.jpg");
+  background-size: 100vw 100vh;
+}
+
+.content {
+  width: 320px;
+  background-color: rgb(116, 105, 105);
+  border-radius: 5px;
+}
+
+.display-value {
+  text-align: end;
+  padding-top: 10px;
+  padding-right: 10px;
+  height: 100px;
+  background-color: #fff;
+  margin: 10px;
+  font-size: 1.5rem;
+  border-radius: 6px;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2px;
+  padding: 10px;
+}
+
+.calculator-digits {
+  border-radius: 10%;
+  border: 2px solid #4a2b2b;
+  height: 60px;
+  width: 100%;
+  place-self: center;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.calculator-digits:hover {
+  background-color: #c7c7c7;
+}
